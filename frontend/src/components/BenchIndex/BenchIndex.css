@@ -1,0 +1,107 @@
+.bench-index-page {
+  display: flex;
+}
+
+.bench-index-map-container h2 {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+
+.bench-index-map-container .map {
+  height: 600px;
+  width: 600px;
+}
+
+.bench-list-container {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.bench-list {
+  display: flex; 
+  flex-direction: column;
+  overflow-y: auto;
+  height: 600px;
+  overflow-y: auto;
+  border-bottom: 1px solid rgb(230,230,230)
+}
+
+.bench-list h1 {
+  margin-bottom: 15px;
+}
+
+.bench-list-item {
+  border: 1px solid black;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.bench-list-item.highlighted {
+  background-color: rgb(240, 240, 240);
+}
+
+.list-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.list-item-fields {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item-info h2 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.info-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item-category {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.list-item-copy {
+  font-size: 1.4rem;
+  font-weight: lighter;
+}
+
+.bench-list-item img {
+  height: 120px;
+  width: 120px;
+  align-self: center;
+  object-fit: cover;
+}
+
+.filter-form {
+  width: 350px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.filter-form h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.filter-fields {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-fields input {
+  margin-left: 5px;
+  width: 40px;
+}

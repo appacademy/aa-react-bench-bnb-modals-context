@@ -1,0 +1,104 @@
+.bench-show-header {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bench-show-header h1 {
+  margin-bottom: 5px;
+}
+
+.bench-show-visuals {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bench-show .map {
+  width: 400px;
+  height: 400px;
+}
+
+.bench-show-image {
+  min-width: 400px;
+  max-width: 600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.bench-show-section {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(230,230,230);
+}
+
+.bench-show-section h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.bench-details p {
+  margin-bottom: 10px;
+}
+
+.bench-details li {
+  margin: 5px 0;
+}
+
+.info-category {
+  font-weight: bold;
+}
+
+.reviews {
+  margin: 20px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.average-rating {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+}
+
+.review {
+  min-height: 100px;
+  border: 1px solid rgb(230,230,230);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.review .delete-icon {
+  color: rgb(166, 23, 13);
+  position: absolute;
+  font-size: 20px;
+  right: 10px;
+  top: 10px;
+}
+
+.review .delete-icon:hover {
+  color: rgb(210, 46, 33);
+  cursor: pointer;
+}
+
+.review h3 {
+  font-weight: bold;
+}
+
+.review span {
+  margin-bottom: 10px;
+}
+
+.review-form {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 70px;
+}
+
+.review-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.new-bench-form {
+  width: 70%;
+  margin: auto;
+}
+
+.new-bench-form h1 {
+  text-align: center;
+}
+
+.bench-form-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.image-preview {
+  margin: auto;
+  text-align: center;
+}
+
+.image-preview h2 {
+  margin: 10px;
+}
+
+input[type="file"] {
+  direction: rtl;
+}

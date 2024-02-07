@@ -1,0 +1,24 @@
+databases:
+  - name: bench_bnb_modals_context
+    user: bench_bnb_modals_context
+    plan: free
+    region: oregon
+
+services:
+  - type: web
+    name: bench_bnb_modals_context
+    plan: free
+    region: oregon
+    branch: main
+    env: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "rails s"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: bench_bnb_modals_context
+          property: connectionString
+      - key: RAILS_ENV
+        value: production
+      - key: RAILS_MASTER_KEY
+        sync: false
